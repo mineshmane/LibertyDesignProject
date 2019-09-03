@@ -1,0 +1,339 @@
+#ex4 .p1[data-count]:after {
+  position: absolute;
+  right: 8%;
+  top: 8%;
+  content: attr(data-count);
+  font-size: 50%;
+  padding: 0.2em;
+  border-radius: 50%;
+  line-height: 1em;
+  color: white;
+  background: rgba(255, 0, 0, 0.85);
+  // background: #FF0017;
+  color: #fff;
+  text-align: center;
+  min-width: 1.5em;
+  //font-weight:bold;
+}
+.menu-title {
+  font-weight: 600;
+}
+.fa-2x {
+  font-size: 1.5em;
+}
+#imgProfile {
+  width: 37px;
+  height: 37px;
+}
+
+.bullet-line-list li {
+  position: relative;
+}
+#linehight {
+  line-height: 1.8;
+}
+ul > li > a {
+  margin: 0px 40px;
+  font-size: 13px;
+}
+.fixedHeader {
+  position: fixed;
+  left: 0%;
+  right: 0%;
+  margin: 0%;
+  top: 0%;
+  background-color: #ffffff;
+  z-index: 1111;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.08);
+}
+
+.fixedHeader > div > nav {
+  margin: 3px 100px;
+}
+
+@media only screen and (max-width: 600px) {
+  .fixedHeader > div > nav {
+    margin: 20px 20px;
+  }
+}
+.top {
+  margin-top: 133px;
+  background-color: #eff3f5;
+}
+
+.body > div {
+  margin: 20px 100px;
+}
+
+@media only screen and (max-width: 600px) {
+  .body > div {
+    margin: 20px 20px;
+  }
+}
+
+.card > div {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+.card > div {
+  border: 1px solid #d5dcec;
+  border-radius: 0px;
+}
+
+.cardFour > div {
+  margin: 0px;
+  border: solid 1px black;
+}
+
+// .user {
+//   padding: 10px;
+// }
+
+.table td,
+.jsgrid .jsgrid-table td,
+.table th,
+.jsgrid .jsgrid-table th {
+  vertical-align: middle;
+  font-size: 0.8rem;
+  line-height: 1;
+  padding: 23px 30px;
+}
+
+.table {
+  border-left: solid 1px #dee2e6;
+  border-right: solid 1px #dee2e6;
+  border-bottom: solid 1px #dee2e6;
+}
+p {
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+img {
+  width: 92px;
+  height: 92px;
+}
+
+.mar {
+  margin-bottom: 0%;
+}
+
+button {
+  width: 70px;
+  background-color: #3e52ce;
+}
+.link-icon {
+  margin-right: 10px;
+  font-size: 1rem;
+  color: #464de4;
+}
+
+.dashboard {
+  // background-color: #3E52CE;
+  background: linear-gradient(30deg, #464de4, #814eff);
+  color: #fff;
+  padding: 10px 15px;
+  color: #ffffff;
+  font-size: 13px;
+}
+
+.fa-cloud {
+  // background-color: #3E52CE;
+  background: linear-gradient(30deg, #464de4, #814eff);
+  color: #fff;
+
+  padding: 3px 5px;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  // font-size: 25px
+}
+
+.logo > span {
+  color: #3e52ce;
+  font-size: 1.5rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.stretch-card > .card {
+  width: 100%;
+  min-width: 100%;
+}
+.display-2 {
+  font-size: 5.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+.display-2 {
+  font-size: 3.125rem;
+}
+
+.mb-0,
+.my-0 {
+  margin-bottom: 0 !important;
+}
+.img-sm {
+  width: 50px;
+  height: 50px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  margin-bottom: 0.5rem;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+  color: inherit;
+}
+// .navbar.horizontal-layout .nav-bottom .page-navigation > .nav-item.active > .nav-link {
+//   background: linear-gradient(30deg, #464de4, #814eff);
+//   color: #fff;
+// }
+
+.bullet-line-list li:before {
+  width: 15px;
+  height: 15px;
+  left: -30px;
+  top: 15px;
+  border: 4px solid #be1a95;
+  border-top-color: rgb(70, 77, 228);
+  border-top-style: solid;
+  border-top-width: 4px;
+  border-right-color: rgb(70, 77, 228);
+  border-right-style: solid;
+  border-right-width: 4px;
+  border-bottom-color: rgb(70, 77, 228);
+  border-bottom-style: solid;
+  border-bottom-width: 4px;
+  border-left-color: rgb(70, 77, 228);
+  border-left-style: solid;
+  border-left-width: 4px;
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+  margin-right: 15px;
+  z-index: 2;
+  background: #fff;
+}
+
+.bullet-line-list::after {
+  content: "";
+  position: absolute;
+  top: 30px;
+  bottom: 0px;
+  left: 7px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(213, 220, 236);
+  border-top-color: rgb(213, 220, 236);
+  border-right-color: rgb(213, 220, 236);
+  border-bottom-color: rgb(213, 220, 236);
+  border-left-color: rgb(213, 220, 236);
+  border-image: initial;
+}
+
+.bullet-line-list li:before {
+  content: "";
+  position: absolute;
+  border-radius: 100%;
+}
+
+.list-wrapper {
+  position: relative;
+}
+.list-item-wrapper {
+  margin-top: 10px;
+  position: relative;
+}
+.list-bullet {
+  float: left;
+  margin-right: 20px;
+  background: #464de4;
+  height: 15px;
+  width: 15px;
+  line-height: 30px;
+  border-radius: 100px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+}
+.list-item {
+  display: table-row;
+  vertical-align: middle;
+}
+.list-title {
+  font-weight: 700;
+}
+.list-text {
+  font-weight: 400;
+}
+.red-line {
+  background: #464de4;
+  z-index: -1;
+  width: 1px;
+  height: 100%;
+  position: absolute;
+  left: 7px;
+}
+.white-line {
+  background: #fff;
+  z-index: -1;
+  top: 0px;
+  width: 1px;
+  height: 100%;
+  position: absolute;
+  left: 15px;
+}
+
+.list-bullet {
+  width: 15px;
+  height: 15px;
+  left: -30px;
+  top: 15px;
+  border: 4px solid #464de4;
+  border-top-color: rgb(70, 77, 228);
+  border-top-style: solid;
+  border-top-width: 4px;
+  border-right-color: rgb(70, 77, 228);
+  border-right-style: solid;
+  border-right-width: 4px;
+  border-bottom-color: rgb(70, 77, 228);
+  border-bottom-style: solid;
+  border-bottom-width: 4px;
+  border-left-color: rgb(70, 77, 228);
+  border-left-style: solid;
+  border-left-width: 4px;
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+  margin-right: 15px;
+  z-index: 2;
+  background: #fff;
+}
+.bullet-line-list {
+  padding-left: 30px;
+  position: relative;
+  list-style-type: none;
+}
