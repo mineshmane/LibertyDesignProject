@@ -5,10 +5,13 @@ import { ChartsComponent } from './charts/charts.component';
 import { LineChartComponent } from './line-chart/line-chart.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { BulletsComponent } from './bullets/bullets.component';
+import {HomePageComponent} from './home-page/home-page.component'
 
 const routes: Routes = [
   { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
   { path: 'dashboard', component: DashboardComponent },
+  { path: 'home', component: HomePageComponent},
+
   { path: 'chart', component: ChartsComponent },
   { path: 'line', component: LineChartComponent },
   {path:'toolbar',component:ToolbarComponent},

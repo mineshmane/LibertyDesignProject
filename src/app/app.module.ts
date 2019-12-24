@@ -13,6 +13,7 @@ import { HighchartsChartComponent } from 'highcharts-angular';
 import { SplinechartComponent } from './splinechart/splinechart.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { BulletsComponent } from './bullets/bullets.component';
+import { HomePageComponent } from './home-page/home-page.component';
 
 
 @NgModule({
@@ -20,7 +21,7 @@ import { BulletsComponent } from './bullets/bullets.component';
     AppComponent,
     DashboardComponent,
     ChartsComponent,
-    LineChartComponent,HighchartsChartComponent, SplinechartComponent, ToolbarComponent, BulletsComponent
+    LineChartComponent,HighchartsChartComponent, SplinechartComponent, ToolbarComponent, BulletsComponent, HomePageComponent
   ],
   imports: [
     BrowserModule,
